@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.background{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Mahindra_Thar_Photoshoot_At_Perupalem_Beach_%28West_Godavari_District%2CAP%2CIndia_%29_Djdavid.jpg/1200px-Mahindra_Thar_Photoshoot_At_Perupalem_Beach_%28West_Godavari_District%2CAP%2CIndia_%29_Djdavid.jpg");
+    height:100vh;
+    width:100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.container h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: chocolate;
+    background-color: darkmagenta;
+}
+.setting{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.setting .fa-solid{
+    font-size: 40px;
+    color:white;
+}
+.setting-content{
+    display: flex;
+    gap: 1rem;
+}
+.setting-content input{
+    padding: 0.5px 1rem;
+    font-size: 1rem;
+}
+.setting-content button{
+    padding: 0.5px 1rem;
+    background-color: chocolate;
+    color:white;
+    border:none;
+    border-radius: 10px;
+}
+.hide{
+    display: none;
+}
+.time-container{
+    margin-top: 10px;
+    display: flex;
+    gap:1rem;
+    justify-content: center;
+    align-items: center;
+}
+.time-container h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+    color:white;
+    background-color: chocolate;
+}
+.time-container div{
+    font-size: 2rem;
+    color: white;
+}
